@@ -1,3 +1,10 @@
 language: node_js
 node_js:
 - "8.6.0"
+
+deploy:
+  provider: heroku
+  api_key: cf45a525-606c-42bf-8ab3-a1798648d023
+  app:
+    master: chloe-production
+    devlop: chloe-staging
