@@ -7,4 +7,4 @@ deploy:
   api_key: cf45a525-606c-42bf-8ab3-a1798648d023
   app:
     master: chloe-production
-    devlop: chloe-staging
+    develop: chloe-staging
